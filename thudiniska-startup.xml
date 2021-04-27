@@ -6,8 +6,8 @@
 <template>
 
 <!-- Load standard AIML set -->
-<learn>eth/eth-greetings.aiml</learn>
-<learn>eth/eth-questions.aiml</learn>
+<learn>thudiniska/thudiniska-greetings.aiml</learn>
+<learn>thudiniska/thudiniska-questions.aiml</learn>
 
 </template>
 </category>

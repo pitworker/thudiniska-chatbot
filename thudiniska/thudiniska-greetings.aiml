@@ -2,22 +2,42 @@
 
 <aiml version="1.0">
 
-<category>
-<pattern>* MATA</pattern>
-<template>
-<random>
-<li>ja mata</li>
-<li>ato de</li>
-<li>mata</li>
-</random>
-</template>
-</category>
+  <category>
+    <pattern>FÁILTE</pattern>
+    <template>
+      <random>
+        <li>Þak</li>
+        <li>Þaka tig</li>
+        <li>Haló</li>
+      </random>
+    </template>
+  </category>
 
-<category>
-<pattern>KONNICHI WA</pattern>
-<template>
-konnichi wa
-</template>
-</category>
+  <category>
+    <pattern>HALÓ</pattern>
+    <template>
+      <random>
+        <li>Haló</li>
+        <li>Fáilte</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>AIREDER TIG</pattern>
+    <template>
+      <srai>AIREDER DÍA TIG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>AIREDER DÍA TIG</pattern>
+    <template>
+      <random>
+        <li>Aireder Día tig</li>
+        <li>Aireder tig</li>
+      </random>
+    </template>
+  </category>
 
 </aiml>

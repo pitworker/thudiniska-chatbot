@@ -2,54 +2,877 @@
 
 <aiml version="1.0">
 
-<category>
-<pattern>* SHABERU</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
+  <category>
+    <pattern>RU * CAIRMI</pattern>
+    <template>
+        <star /> <srai>CAIRMI</srai>
+    </template>
+  </category>
 
-<category>
-<pattern>TALK GOSSIP</pattern>
-<template>
-<random>
-<li>Yuki-chan ha Ken-kun ga suki desu.</li>
-<li>Ken-kun ha Yuki-kun ga suki desu.</li>
-</random>
-</template>
-</category>
+  <category>
+    <pattern>CAIRMI</pattern>
+    <template>
+      <random>
+        <li>Þúdinisi</li>
+        <li>Islandi</li>
+        <li>sint báhrteci</li>
+      </random>
+    </template>
+  </category>
 
-<category>
-<pattern>IS *</pattern>
-<template>
-<random>
-<li>Yes, <star/>.</li>
-<li>No, <star/>.</li>
-<li>Maybe, <star/>.</li>
-</random>
-</template>
-</category>
+  <category>
+    <pattern>RU * CEDI</pattern>
+    <template>
+        <star /> <srai>CEDI</srai>
+    </template>
+  </category>
 
-<category>
-<pattern>* KA</pattern>
-<template>
-<random>
-   <li>hai, <star/> yo</li>
-   <li>iie, chigau</li>
-</random>
-</template>
-</category>
+  <category>
+    <pattern>CEDI</pattern>
+    <template>
+      <random>
+        <li>longi</li>
+        <li>sint báhrsi</li>
+      </random>
+    </template>
+  </category>
 
-<category>
-<pattern>*</pattern>
-<template>
-<random>
-<li>do shimashou ka</li>
-<li>daisuke na eiga wa nan desu ka</li>
-</random>
-</template>
-</category>
+  <category>
+    <pattern>RU * CEDU</pattern>
+    <template>
+        <star /> <srai>CEDU</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CEDU *</pattern>
+    <template>
+        <star index="1" /> <srai>CEDU</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>CEDU</pattern>
+    <template>
+      <random>
+        <li>long</li>
+        <li>san báhrs</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CED</pattern>
+    <template>
+      <star /> <srai>CED</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CED *</pattern>
+    <template>
+      <star index="1" /> <srai>CED</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>CED</pattern>
+    <template>
+      <random>
+        <li>long</li>
+        <li>an báhrs</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CITNE</pattern>
+    <template>
+      <star /> <srai>CITNE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CITNE *</pattern>
+    <template>
+      <star index="1" /> <srai>CITNE</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>CITNE</pattern>
+    <template>
+      <random>
+        <li>lung</li>
+        <li>nat behrs</li>
+        <li>mín derir</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CITNIR</pattern>
+    <template>
+      <star /> <srai>CITNIR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CITNIR *</pattern>
+    <template>
+      <star index="1" /> <srai>CITNIR</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>CITNIR</pattern>
+    <template>
+      <random>
+        <li>lungir</li>
+        <li>sna behrs</li>
+        <li>mín derir</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CITNUM</pattern>
+    <template>
+      <star /> <srai>CITNUM</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CITNUM *</pattern>
+    <template>
+      <star index="1" /> <srai>CITNUM</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>CITNUM</pattern>
+    <template>
+      <random>
+        <li>longum</li>
+        <li>néb báhrsum</li>
+        <li>mín derum</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * COIA</pattern>
+    <template>
+      <star /> <srai>COIA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * COIA *</pattern>
+    <template>
+      <star index="1" /> <srai>COIA</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>COIA</pattern>
+    <template>
+      <random>
+        <li>kerd</li>
+        <li>an ékid</li>
+        <li>mín der</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * COIG</pattern>
+    <template>
+      <star /> <srai>COIG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * COIG *</pattern>
+    <template>
+      <star index="1" /> <srai>COIG</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>COIG</pattern>
+    <template>
+      <random>
+        <li>kerd</li>
+        <li>san ékid</li>
+        <li>mín der</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * COÉR</pattern>
+    <template>
+      <star /> <srai>COÉR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * COÉR *</pattern>
+    <template>
+      <star index="1" /> <srai>COÉR</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>COÉR</pattern>
+    <template>
+      <random>
+        <li>kerdi</li>
+        <li>sint ékidi</li>
+        <li>mín deri</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * COÍN</pattern>
+    <template>
+      <star /> <srai>COÍN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * COÍN *</pattern>
+    <template>
+      <star index="1" /> <srai>COÍN</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>COÍN</pattern>
+    <template>
+      <random>
+        <li>kerds</li>
+        <li>na ékids</li>
+        <li>mín derar</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CÍNDAS</pattern>
+    <template>
+      <star /> <srai>CÍNDAS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CÍNDAS *</pattern>
+    <template>
+      <star index="1" /> <srai>CÍNDAS</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>CÍNDAS</pattern>
+    <template>
+      <random>
+        <li>krib</li>
+        <li>dag</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CEMÉT</pattern>
+    <template>
+      <star /> <srai>CEMÉT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CEMÉT *</pattern>
+    <template>
+      <star index="1" /> <srai>CEMÉT</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>CEMÉT</pattern>
+    <template>
+      <random>
+        <li>sjé</li>
+        <li>fjórití oq kóg</li>
+        <li>þrjátí þúsand</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIFÍ</pattern>
+    <template>
+      Nuaiðne ru<star /> cifí
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIFÍ *</pattern>
+    <template>
+      Nuaiðne ru<star index="1" /> cifí <srai>CEMÉT</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>CIFÍ</pattern>
+    <template>Nuaiðne</template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAFÍ</pattern>
+    <template>
+      Nuaiðne ru<star /> ciafí
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAFÍ *</pattern>
+    <template>
+      Nuaiðne ru<star index="1" /> ciafí <srai>CEMÉT</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>CIAFÍ</pattern>
+    <template>Nuaiðne</template>
+  </category>
+
+  <category>
+    <pattern>RU * CIARET</pattern>
+    <template>
+      Nuaiðne ru<star /> ciaret
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIARET *</pattern>
+    <template>
+      Nuaiðne ru<star index="1" /> ciaret <srai>CEMÉT</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>CIARET</pattern>
+    <template>Nuaiðne</template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM A * MÉ</pattern>
+    <template>
+      <star index="1" /> <srai>RU CIAGNIM A MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM A MÉ *</pattern>
+    <template>
+      <star index="1" /> <srai>RU CIAGNIM A MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM A * MÉ * </pattern>
+    <template>
+      <srai>RU CIAGNIM A MÉ</srai> <star index="1" /> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM A MÉ * </pattern>
+    <template>
+      <srai>RU CIAGNIM A MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM A * MÉ</pattern>
+    <template>
+      <srai>RU CIAGNIM A MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM A MÉ</pattern>
+    <template>
+      <star /> <srai>RU CIAGNIM A MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM A * MÉ * </pattern>
+    <template>
+      <star index="1" /><srai>RU CIAGNIM A MÉ</srai> <star index="2" /> <star index="3" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM A MÉ</pattern>
+    <template>
+      cénter tú mér
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM A *</pattern>
+    <template>
+      <srai>RU CIAGNIM A MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM A</pattern>
+    <template>
+      <star /> <srai>RU CIAGNIM A MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM A * </pattern>
+    <template>
+      <star index="1" /><srai>RU CIAGNIM A MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM A</pattern>
+    <template>
+      <srai>RU CIAGNIM A MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM AÐI * MÉ</pattern>
+    <template>
+      <star index="1" /> <srai>RU CIAGNIM AÐI MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM AÐI MÉ *</pattern>
+    <template>
+      <star index="1" /> <srai>RU CIAGNIM AÐI MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM AÐI * MÉ * </pattern>
+    <template>
+      <srai>RU CIAGNIM AÐI MÉ</srai> <star index="1" /> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM AÐI MÉ * </pattern>
+    <template>
+      <srai>RU CIAGNIM AÐI MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM AÐI * MÉ</pattern>
+    <template>
+      <srai>RU CIAGNIM AÐI MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM AÐI MÉ</pattern>
+    <template>
+      <star /> <srai>RU CIAGNIM AÐI MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM AÐI * MÉ * </pattern>
+    <template>
+      <star index="1" /><srai>RU CIAGNIM AÐI MÉ</srai> <star index="2" /> <star index="3" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM AÐI MÉ</pattern>
+    <template>
+      Nuaiðne ruciagnimaðir
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM AÐI *</pattern>
+    <template>
+      <srai>RU CIAGNIM AÐI MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM AÐI</pattern>
+    <template>
+      <star /> <srai>RU CIAGNIM AÐI MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM AÐI * </pattern>
+    <template>
+      <star index="1" /><srai>RU CIAGNIM AÐI MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM AÐI</pattern>
+    <template>
+      <srai>RU CIAGNIM AÐI MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM ADE * MÉ</pattern>
+    <template>
+      <star index="1" /> <srai>RU CIAGNIM ADE MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM ADE MÉ *</pattern>
+    <template>
+      <star index="1" /> <srai>RU CIAGNIM ADE MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM ADE * MÉ * </pattern>
+    <template>
+      <srai>RU CIAGNIM ADE MÉ</srai> <star index="1" /> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIMA ADE MÉ * </pattern>
+    <template>
+      <srai>RU CIAGNIM ADE MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM ADE * MÉ</pattern>
+    <template>
+      <srai>RU CIAGNIM ADE MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM ADE MÉ</pattern>
+    <template>
+      <star /> <srai>RU CIAGNIM ADE MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM ADE * MÉ * </pattern>
+    <template>
+      <star index="1" /><srai>RU CIAGNIM ADE MÉ</srai> <star index="2" /> <star index="3" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM ADE MÉ</pattern>
+    <template>
+      Nuaiðne ruciagnimader
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM ADE *</pattern>
+    <template>
+      <srai>RU CIAGNIM ADE MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM ADE</pattern>
+    <template>
+      <star /> <srai>RU CIAGNIM ADE MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM ADE * </pattern>
+    <template>
+      <star index="1" /><srai>RU CIAGNIM ADE MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM ADE</pattern>
+    <template>
+      <srai>RU CIAGNIM ADE MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CIFÍ</pattern>
+    <template>Nuaiðne</template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM A * MÉ</pattern>
+    <template>
+      <star index="1" /> <srai>RU CIAGNIM A MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM A MÉ *</pattern>
+    <template>
+      <star index="1" /> <srai>RU CIAGNIM A MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM A * MÉ * </pattern>
+    <template>
+      <srai>RU CIAGNIM A MÉ</srai> <star index="1" /> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM A MÉ * </pattern>
+    <template>
+      <srai>RU CIAGNIM A MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM A * MÉ</pattern>
+    <template>
+      <srai>RU CIAGNIM A MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM A MÉ</pattern>
+    <template>
+      <star /> <srai>RU CIAGNIM A MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM A * MÉ * </pattern>
+    <template>
+      <star index="1" /><srai>RU CIAGNIM A MÉ</srai> <star index="2" /> <star index="3" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM A MÉ</pattern>
+    <template>
+      cénter tú mér
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM A *</pattern>
+    <template>
+      <srai>RU CIAGNIM A MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM A</pattern>
+    <template>
+      <star /> <srai>RU CIAGNIM A MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM A * </pattern>
+    <template>
+      <star index="1" /><srai>RU CIAGNIM A MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM A</pattern>
+    <template>
+      <srai>RU CIAGNIM A MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM AÐI * MÉ</pattern>
+    <template>
+      <star index="1" /> <srai>RU CIAGNIM AÐI MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM AÐI MÉ *</pattern>
+    <template>
+      <star index="1" /> <srai>RU CIAGNIM AÐI MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM AÐI * MÉ * </pattern>
+    <template>
+      <srai>RU CIAGNIM AÐI MÉ</srai> <star index="1" /> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM AÐI MÉ * </pattern>
+    <template>
+      <srai>RU CIAGNIM AÐI MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM AÐI * MÉ</pattern>
+    <template>
+      <srai>RU CIAGNIM AÐI MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM AÐI MÉ</pattern>
+    <template>
+      <star /> <srai>RU CIAGNIM AÐI MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM AÐI * MÉ * </pattern>
+    <template>
+      <star index="1" /><srai>RU CIAGNIM AÐI MÉ</srai> <star index="2" /> <star index="3" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM AÐI MÉ</pattern>
+    <template>
+      Nuaiðne ruciagnimaðir
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM AÐI *</pattern>
+    <template>
+      <srai>RU CIAGNIM AÐI MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM AÐI</pattern>
+    <template>
+      <star /> <srai>RU CIAGNIM AÐI MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM AÐI * </pattern>
+    <template>
+      <star index="1" /><srai>RU CIAGNIM AÐI MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM AÐI</pattern>
+    <template>
+      <srai>RU CIAGNIM AÐI MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM ADE * MÉ</pattern>
+    <template>
+      <star index="1" /> <srai>RU CIAGNIM ADE MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM ADE MÉ *</pattern>
+    <template>
+      <star index="1" /> <srai>RU CIAGNIM ADE MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM ADE * MÉ * </pattern>
+    <template>
+      <srai>RU CIAGNIM ADE MÉ</srai> <star index="1" /> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIMA ADE MÉ * </pattern>
+    <template>
+      <srai>RU CIAGNIM ADE MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM ADE * MÉ</pattern>
+    <template>
+      <srai>RU CIAGNIM ADE MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM ADE MÉ</pattern>
+    <template>
+      <star /> <srai>RU CIAGNIM ADE MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM ADE * MÉ * </pattern>
+    <template>
+      <star index="1" /><srai>RU CIAGNIM ADE MÉ</srai> <star index="2" /> <star index="3" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM ADE MÉ</pattern>
+    <template>
+      Nuaiðne ruciagnimader
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM ADE *</pattern>
+    <template>
+      <srai>RU CIAGNIM ADE MÉ</srai> <star />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM ADE</pattern>
+    <template>
+      <star /> <srai>RU CIAGNIM ADE MÉ</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CIAGNIM ADE * </pattern>
+    <template>
+      <star index="1" /><srai>RU CIAGNIM ADE MÉ</srai> <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU CIAGNIM ADE</pattern>
+    <template>
+      <srai>RU CIAGNIM ADE MÉ</srai>
+    </template>
+  </category>
 
 </aiml>
-
-
