@@ -329,6 +329,26 @@
   </category>
 
   <category>
+    <pattern>RU * CAIR</pattern>
+    <template>
+      Nuaiðne ru<star /> cair
+    </template>
+  </category>
+
+  <category>
+    <pattern>RU * CAIR *</pattern>
+    <template>
+      Nuaiðne ru<star index="1" /> cair <star index="2" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAIR</pattern>
+    <template>Nuaiðne</template>
+  </category>
+
+
+  <category>
     <pattern>RU * CIAFÍ</pattern>
     <template>
       Nuaiðne ru<star /> ciafí
